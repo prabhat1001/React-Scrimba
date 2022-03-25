@@ -1,13 +1,162 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{padding: 0;margin: 0;box-sizing: border-box;font-family: 'Inter';}
+.body{
+  background-color: #373a44;
+}
+.container{
+  width: 18%;
+  height: 95vh;
+  background-color: #1A1B21;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: 2.5vh;
+  overflow-y: hidden;
+  margin-left: 40%;
+  box-shadow: 3px 3px 20px rgba(5, 5, 5, 0.89);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* ====== Info =====*/
+
+.info--cont .image{
+  width: 100%;
+  height: 38vh;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(5, 5, 5, 0.89);
+}
+
+.info--cont .name,.info--cont .role,.info--cont .web{
+  text-align: center;
+}
+
+.info--cont .name{
+  margin-top: 5px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+.info--cont .role{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 2px;
+  color: #be75fa;
+  font-weight: 400;
+}
+.info--cont .web{
+  margin-top: 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  text-align: center;
+  color: #F5F5F5;
+}
+
+.info--cont a{
+  text-decoration: none;
+}
+.info--cont .buttons .button-2:hover,.info--cont .buttons .button-1:hover{
+  background-color: #6600b9;
+  color: white;
+}
+
+.info--cont .buttons .button-1 h4{
+  color: rgb(255, 255, 255);
+}
+.info--cont .buttons .button-2 h4{
+  color: white;
+}
+
+.info--cont .buttons{
+  display: flex;
+  margin-left: 10%;
+  width: 80%;
+  margin-top: 10px;
+}
+
+.info--cont .buttons .button-1,.info--cont .buttons .button-2{
+  width: 80%;
+  height: 5vh;
+  margin-left: 2%;
+  margin-right: 2% ;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.info--cont .buttons .button-1{
+  text-align: center;
+  background: #ff4f1a;
+  padding-top: 5px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0px 5px 20px rgba(5, 5, 5, 0.89);
+}
+.info--cont .buttons .button-2 {
+  text-align: center;
+  padding-top: 5px;
+  background: #406deb;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  box-shadow: 0px 5px 20px rgba(5, 5, 5, 0.89);
+  
+}
+
+
+/* ====== About ======= */
+.about--cont{
+  width: 80%;
+  margin-left: 10%;
+  /* background-color: #1A1B21; */
+}
+
+.about--cont h1{
+  /* font-size: 0.9rem; */
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: white;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  /* background-color: #1A1B21; */
+}
+.about--cont p{
+  /* font-size: 0.6rem; */
+  font-size: 10px;
+  text-align: justify;
+  color: rgb(150, 150, 150);
+  /* background-color: #1A1B21; */
+}
+
+/* ====== Intrest ======= */
+
+.intrest--cont{
+  width: 80%;
+  margin-left: 10%;
+  /* background-color: #1A1B21; */
+}
+
+.intrest--cont h1{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: white;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  /* background-color: #1A1B21; */
+}
+
+.intrest--cont p{
+  font-size: 0.6rem;
+  font-size: 10px;
+  text-align: justify;
+  color: rgb(150, 150, 150);
+  /* background-color: #1A1B21; */
 }
